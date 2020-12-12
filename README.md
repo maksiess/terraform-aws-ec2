@@ -14,3 +14,13 @@ module "ec2" {
   ami = "AMI_ID"                   #ami-02ad6b83fd606d009 CentOS AMI for us-east-2 
 }
 ```
+
+# DO NOT FORGET TO PUT YOUR CREDENTIALS
+
+## After this run the following command to download necessary plugins:
+``` terraform init ```
+
+
+## In order to create the infrastructure, run the following command:
+``` terraform apply ``` 
+#### Write ``` terraform apply -auto-approve ``` in order to run automatically
