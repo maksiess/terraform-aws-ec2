@@ -1,3 +1,2 @@
 #!/bin/bash
-sudo yum install httpd -y
-sudo systemctl start httpd
+yum install telnet -y

@@ -1,7 +1,7 @@
-# resource "aws_route53_record" "www3" {
-#   zone_id = "Z32OHGRMBVZ9LR"
-#   name    = "www3.acirrustech.com"
+# resource "aws_route53_record" "cluster" {
+#   zone_id = "Z2WS55GJ0XKB7P"
+#   name    = "${var.cluster}.zoom.us"
 #   type    = "A"
-#   ttl     = "30"
+#   ttl     = "60"
 #   records = ["${aws_instance.web.public_ip}"]
 # }
